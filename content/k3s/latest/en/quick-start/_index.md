@@ -18,7 +18,7 @@ A kubeconfig file is written to `/etc/rancher/k3s/k3s.yaml` and the service is a
 The install script will install k3s and additional utilities, such as `kubectl`, `crictl`, `k3s-killall.sh`, and `k3s-uninstall.sh`, for example:
 
 ```bash
-sudo kubectl get nodes
+sudo k3s kubectl get nodes
 ```
 
 `K3S_TOKEN` is created at `/var/lib/rancher/k3s/server/node-token` on your server.
